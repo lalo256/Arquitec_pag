@@ -1,0 +1,15 @@
+nosotrosLink : WOHyperlink {
+	pageName = "Nosotros";
+}
+
+proyectoLink : WOHyperlink {
+	pageName = "Proyecto";
+}
+
+productoLink : WOHyperlink {
+	pageName = "Productos";
+}
+
+contactoLink : WOHyperlink {
+	pageName = "Contacto";
+}

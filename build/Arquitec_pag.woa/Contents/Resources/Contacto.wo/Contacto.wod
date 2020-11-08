@@ -13,3 +13,5 @@ productoLink : WOHyperlink {
 contactoLink : WOHyperlink {
 	pageName = "Contacto";
 }
+contactForm : WOForm {
+}
