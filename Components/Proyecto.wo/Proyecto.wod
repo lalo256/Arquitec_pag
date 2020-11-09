@@ -1,3 +1,7 @@
+mainLink : WOHyperlink {
+	pageName = "Main";
+}
+
 nosotrosLink : WOHyperlink {
 	pageName = "Nosotros";
 }
@@ -12,4 +16,10 @@ productoLink : WOHyperlink {
 
 contactoLink : WOHyperlink {
 	pageName = "Contacto";
+}
+
+logoImg : WOImage {
+	filename = "Img/1451.jpeg";
+	alt = "logoImg";
+	style="width:300px;height:150px;padding-bottom:10px;";
 }

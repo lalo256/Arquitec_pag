@@ -1,3 +1,7 @@
+mainLink : WOHyperlink {
+	pageName = "Main";
+}
+
 nosotrosLink : WOHyperlink {
 	pageName = "Nosotros";
 }
@@ -14,4 +18,28 @@ contactoLink : WOHyperlink {
 	pageName = "Contacto";
 }
 contactForm : WOForm {
+}
+
+logoImg : WOImage {
+	filename = "Img/1451.jpeg";
+	alt = "logoImg";
+	style="width:300px;height:150px;padding-bottom:10px;";
+}
+
+contacImg1 : WOImage {
+	filename = "Img/2451.jpeg";
+	alt = "ContacImg1";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+}
+
+contacImg2 : WOImage {
+	filename = "Img/2452.jpeg";
+	alt = "ContacImg3";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+}
+
+contacImg3 : WOImage {
+	filename = "Img/2453.jpeg";
+	alt = "ContacImg3";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
 }
