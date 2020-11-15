@@ -23,3 +23,20 @@ logoImg : WOImage {
 	alt = "logoImg";
 	style="width:300px;height:150px;padding-bottom:10px;";
 }
+contactImg1 : WOImage {
+	filename = "Img/2451.jpeg";
+	alt = "contactImg1";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+}
+
+contactImg2 : WOImage {
+	filename = "Img/2452.1.jpeg";
+	alt = "contactImg2";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+}
+
+contactImg3 : WOImage {
+	filename = "Img/2453.1.jpeg";
+	alt = "contactImg3";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+}

@@ -8,7 +8,6 @@
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		  <link rel="stylesheet" href="CSS/main.css"/>
 	</head>
 	<style>
 		.footerMain{
@@ -21,6 +20,31 @@
 			padding-top: 25px;
 			font-family: Ailerons-Regular;
 			font-size: 20px;
+		}
+		.presentacinTitulo{
+			color: red;
+			font-family: arial;
+			padding: 10px;
+		}
+		.nosotrosPresentacion{
+			color:gray;
+			font-family: arial;
+			pading:15px;
+		}
+		.lema{
+			color:gray;
+			text-align: center;
+			padding: 15px;
+		}
+		.botonesNombre{
+			font-family: Ailerons-Regular;
+			
+		}
+		.descripcionNoso{
+			padding: 30px;
+			font-family: arial;
+			color: gray;
+			font-size: 35px;
 		}
 	</style>
 	<body>
@@ -44,6 +68,84 @@
 				  </li>
 				</ul>
 			</div>
+			<!-- div de cuerpo -->
+			<div class="container-fluid">
+			<h1 class="presentacinTitulo">Nosotros</h1>
+				<p class="nosotrosPresentacion">
+					Studio la Cueva con sede en ciudad de Mexico y cuautla Morelos 
+					enfocado en el diseño y construcción de  viviendas unifamiliares, 
+					proyectos con poco presupuesto, y remodelación.
+
+ 					garantizando la calidad de la obra, Fundado por Carlos Cuevas, Eduardo Cuevas Y Jesus Cuevas.
+
+					<h2 class="lema">"Arquitectura al alcance de todos"</h2>
+				</p>
+				<!-- div seleccion -->
+				<div>
+					<div class="container botonesNombre">
+					  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#CarlosC">Carlos Cuevas</button>
+					  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#JesusC">Jesus Cuevas</button>
+					  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#EduardoC">Eduardo Cuevas</button>
+					  <div id="CarlosC" class="collapse">
+					   <div class="container-fluid">
+					   		<div class="row">
+					   			<div class="col-4">
+					   				<webobject name = "contactImg1"/>
+					   			</div>
+					   			<div class="col-8">
+					   					<p class="descripcionNoso">
+					   					Curso sus estudios de arquitectura en la universidad 
+					   					tecnologica de mexico, con especilizacion en el diseño 
+					   					de interiores.
+					   					enfocado a los proyecyos habitacionales y proyectos
+					   					de impacto social.
+					   					buscando siempre sustentabilidad, bajo costo de las obras
+					   					y el confort de las personas.
+					   					</p>
+					   			</div>
+					   		</div>
+					   </div>
+					  </div>
+					  <div id="JesusC" class="collapse">
+					   <div class="container-fluid">
+					   		<div class="row">
+					   			<div class="col-1"></div>
+					   			<div class="col-3">
+					   				<webobject name = "contactImg2"/>
+					   			</div>
+					   			<div class="col-8">
+					   				<p class="descripcionNoso">
+					   				Cursa sus estudios en contaduría en la universidad tecnológica 
+					   				de México , enfocado en el area economico-administrativa para
+					   				una mejor canalización de los recursos.
+					   				</p>
+					   			</div>
+					   		</div>
+					  </div>
+					</div>
+					<div id="EduardoC" class="collapse">
+					  <div class="container-fluid">
+					   		<div class="row">
+					   			<div class="col-2"></div>
+					   			<div class="col-2">
+					   				<webobject name = "contactImg3"/>
+					   			</div>
+					   			<div class="col-1"></div>
+					   			<div class="col-7">
+					   				<p class="descripcionNoso">
+										Ingeniero en sistemas, enfocado a nuevas tecnologías 
+										capaces de automatizar una vivienda o edificación de 
+										cualquier tipo.
+					   				</p>
+					   			</div>
+					   		</div>
+					  </div>
+					</div>
+					</div>
+										
+				</div>
+			</div>
+			<!-- fin div cuerpo -->
 		</div>
 		<!-- foooter -->
 		<div>

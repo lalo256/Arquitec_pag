@@ -35,11 +35,11 @@ contacImg1 : WOImage {
 contacImg2 : WOImage {
 	filename = "Img/2452.jpeg";
 	alt = "ContacImg3";
-	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;max-width: 115px;height: auto;";
 }
 
 contacImg3 : WOImage {
 	filename = "Img/2453.jpeg";
 	alt = "ContacImg3";
-	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
+	style="padding-bottom:10px;padding-top:10px;padding-right:5px;max-width: 115px;height: auto;";
 }
