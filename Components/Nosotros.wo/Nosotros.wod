@@ -40,3 +40,6 @@ contactImg3 : WOImage {
 	alt = "contactImg3";
 	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
 }
+
+formSelection : WOForm {
+}
