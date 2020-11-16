@@ -21,7 +21,7 @@ contactoLink : WOHyperlink {
 logoImg : WOImage {
 	filename = "Img/1451.jpeg";
 	alt = "logoImg";
-	style="width:300px;height:150px;padding-bottom:10px;";
+	style="width:200px;height:100px;padding-bottom:10px;";
 }
 contactImg1 : WOImage {
 	filename = "Img/2451.jpeg";
@@ -39,7 +39,4 @@ contactImg3 : WOImage {
 	filename = "Img/2453.1.jpeg";
 	alt = "contactImg3";
 	style="padding-bottom:10px;padding-top:10px;padding-right:5px;";
-}
-
-formSelection : WOForm {
 }
