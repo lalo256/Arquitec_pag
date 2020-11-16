@@ -69,8 +69,30 @@
 				</ul>
 			</div>
 			<!-- div de cuerpo -->
-			<script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$('#tabs-1').hide();
+					$('#tabs-2').hide();
+					$('#tabs-3').hide();
 			
+					$('#enlace1').click(function(){
+						$('#tabs-1').show();
+						$('#tabs-2').hide();
+						$('#tabs-3').hide();
+					});
+			
+					$('#enlace2').click(function(){
+						$('#tabs-2').show();
+						$('#tabs-1').hide();
+						$('#tabs-3').hide();
+					});
+			
+					$('#enlace3').click(function(){
+						$('#tabs-3').show();
+						$('#tabs-2').hide();
+						$('#tabs-1').hide();
+					});
+				});
 			</script>
 			<div>
 			<div class="container-fluid">
@@ -88,10 +110,10 @@
 
 					<div>
 						<div class="container botonesNombre">
-						  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#CarlosC">Carlos Cuevas</button>
-						  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#JesusC">Jesus Cuevas</button>
-						  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#EduardoC">Eduardo Cuevas</button>
-						  <div id="CarlosC" class="collapse">
+						  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#CarlosC" href="#tabs-1" id="enlace1">Carlos Cuevas</button>
+						  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#JesusC" href="#tabs-2" id="enlace2">Jesus Cuevas</button>
+						  <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#EduardoC" href="#tabs-3" id="enlace3">Eduardo Cuevas</button>
+						  <div id="tabs-1" class="collapse">
 						   <div class="container-fluid" display:"none">
 						   		<div class="row">
 						   			<div class="col-4">
@@ -111,7 +133,7 @@
 						   		</div>
 						   </div>
 						  </div>
-						  <div  class="collapse" id="JesusC">
+						  <div  class="collapse" id="tabs-2">
 						   <div class="container-fluid">
 						   		<div class="row">
 						   			<div class="col-1"></div>
@@ -128,7 +150,7 @@
 						   		</div>
 						  </div>
 						</div>
-						<div class="collapse" id="EduardoC">
+						<div class="collapse" id="tabs-3">
 						  <div class="container-fluid">
 						   		<div class="row">
 						   			<div class="col-2"></div>
@@ -146,13 +168,11 @@
 						   		</div>
 						  </div>
 						</div>
-						</div>
-											
+						</div>					
 					</div>
-
-				
 			</div>
 			<!-- fin div cuerpo -->
+		</div>
 		</div>
 		<!-- foooter -->
 		<div>
