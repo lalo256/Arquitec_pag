@@ -21,6 +21,15 @@
 			font-family: Ailerons-Regular;
 			font-size: 20px;
 		}
+		.tablaContacto{
+			padding: 20px;
+
+		}
+		.titleContac{
+			font-family: Ailerons-Regular;
+			color: red; 
+			padding: 25px;
+		}
 		
 	</style>
 	<body>
@@ -52,9 +61,42 @@
 							<webobject name = "contacImg2"/>
 							<webobject name = "contacImg3"/>
 						</div>
-						<div class="col-6">
+						<div class="col-6 container-fluid">
 					<webobject name = "contactForm">
-						sdsd 2
+						<div>
+							<h1 class="titleContac">Contactanos</h1>
+								<table class="tablaContacto table-borderless">
+									<tr>
+										<td>nombre *</td>
+										<td><webobject name = "campoName"/></td>
+									</tr>
+									<tr><td Style="padding:10px;"></td></tr>
+									<tr>
+										<td>Email *</td>
+										<td><webobject name = "campoEmail"/></td>
+									</tr>
+									<tr><td Style="padding:10px;"></td></tr>
+									<tr>
+										<td>Telefono</td>
+										<td><webobject name = "campoFon"/></td>
+									</tr>
+									<tr><td Style="padding:10px;"></td></tr>
+									<tr>
+										<td>Asunto</td>
+										<td><webobject name = "campoAsunto"/></td>
+									</tr>
+									<tr><td Style="padding:10px;"></td></tr>
+									<tr>
+										<td>Mensaje</td>
+										<td><webobject name = "campoMensaje"/></td>
+									</tr>
+									<tr><td Style="padding:10px;"></td></tr>
+									<tr>
+										<td></td>
+										<td><webobject name = "enviarBtn"/></td>
+									</tr>
+								</table>
+						</div>
 					</webobject>
 						</div>
 					</div>

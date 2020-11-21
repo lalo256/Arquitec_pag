@@ -43,3 +43,34 @@ contacImg3 : WOImage {
 	alt = "ContacImg3";
 	style="padding-bottom:10px;padding-top:10px;padding-right:5px;max-width: 115px;height: auto;";
 }
+
+campoName : WOTextField {
+  value = campoName;
+ 
+}
+
+campoEmail : WOTextField {
+  value = campoEmail;
+
+}
+
+campoFon : WOTextField {
+  value = campoFon;
+
+}
+
+campoAsunto : WOTextField {
+  value = campoAsunto;
+}
+
+campoMensaje : WOTextField {
+  value = campoMensaje;
+
+}
+
+enviarBtn : WOSubmitButton {
+	value = "Enviar";
+	action = sendEmail;
+	class="btn btn-outline-secondary";
+	style = "border:0px;";
+}

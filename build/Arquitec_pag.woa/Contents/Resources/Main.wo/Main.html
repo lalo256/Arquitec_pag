@@ -21,7 +21,28 @@
 			font-family: Ailerons-Regular;
 			font-size: 20px;
 		}
+		.carousel-inner img {
+		    width: 100%;
+		    height: 100%;
+		    border: .0px solid gray;
+		  }
 	</style>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+		       var i;
+		       var slides = document.getElementsByClassName("mySlides");
+		       for (i = 0; i < slides.length; i++) {
+		        slides[i].style.display = "none";
+		       }
+		       slideIndex++;
+		       if(slideIndex > slides.length) {slideIndex = 1}
+		       slides[slideIndex-1].style.display = "block";
+		       setTimeout(showSlides,3000);
+		}
+	</script>
 	<body>
 		<div class="container">
 			<div class="headerMain"> <!-- div de header -->
@@ -44,10 +65,42 @@
 				</ul>
 			</div>
 			<!-- div de imagen main -->
-				<div class="container-fluid">
-					<webobject name = "indexImg"/>
-				</div>
-		</div>
+			<div id="demo" class="carousel slide" data-ride="carousel">
+
+			  <!-- Indicators -->
+			  <ul class="carousel-indicators">
+			    <li data-target="#ImgSlide" data-slide-to="0" class="active"></li>
+			    <li data-target="#ImgSlide" data-slide-to="1"></li>
+			    <li data-target="#ImgSlide" data-slide-to="2"></li>
+			    <li data-target="#ImgSlide" data-slide-to="3"></li>
+			  </ul>
+			  
+			  <!-- The slideshow -->
+			  <div class="carousel-inner mySlides">
+			    <div class="carousel-item active">
+			     <webobject name = "indexImg1"/>
+			    </div>
+			    <div class="carousel-item mySlides">
+			      <webobject name = "indexImg2"/>
+			    </div>
+			    <div class="carousel-item mySlides">
+			     	<webobject name = "indexImg3"/>
+			    </div>
+			    <div class="carousel-item mySlides">
+			     	<webobject name = "indexImg4"/>
+			    </div>
+			  </div>
+			  
+			  <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#ImgSlide" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#ImgSlide" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+			</div>
+				
+</div>
 		<!-- foooter -->
 		<div>
 			<footer class="footerMain">
